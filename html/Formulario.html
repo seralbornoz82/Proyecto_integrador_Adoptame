@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/Nuestros logo/favicon.ico">
+    <link rel="stylesheet" href="../css/Formularios.css">
+    <link rel="stylesheet" href="../css/estilos_adoptame_blue.css">
+    <script src="https://kit.fontawesome.com/a4dd37e9ad.js" crossorigin="anonymous"></script> <!-- cambio de iconos -->
+    <title>Registrate</title>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <div class="nav_logo">
+            <a href="../index.html">@Adoptame</a>
+        </div>
+        <div class="nav_items" id="_items" >
+            <a href="../index.html">Inicio</a>
+            <a href="acercade.html">Acerca de</a>
+            <a href="Adopcionycuidado.html">Adopcion y cuidado</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="Formulario.html">Registrate</a>
+        </div>
+        <div class="nav_toggle" id="_toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+</header>
+
+    <main>
+
+        <div class="container"> 
+            <h3>Registrate en @Adoptame</h3>
+            <div class="boton">
+                <button class="google-btn">
+                    <picture>
+                        <img src="../img/google-svgrepo-com.svg" alt="Logo-google">
+                    </picture>
+                    <span>Registrate con Google</span>
+                </button>
+                <button class="google-btn">
+                    <picture>
+                        <img src="../img/facebook-color-svgrepo-com.svg" alt="Logo-fb">
+                    </picture>
+                    <span>Registrate con Facebook</span>
+                </button>
+            </div>
+            <div class="separater">
+                <hr>
+                <span>O...</span>
+                <hr>
+            </div>
+            <form action=""  id="formulario" onsubmit="return validarFormulario()" >
+                <div class="section-inputs">
+                    <label for="name">
+                        <span>Nombre</span>
+                        <input id="name" name="name"/>
+                    </label>
+                    <label for="username">
+                        <span>Nombre de usuario</span>
+                        <input id="username" name="username"/>
+                    </label>
+                </div>
+                <label for="email">
+                    <span>Email</span>
+                    <input id="email" name="email" placeholder="ejemplo@gmail.com"/>
+                </label>
+                <label for="password">
+                    <span>Contraseña</span>
+                    <input id="password" name="password" placeholder="+6 Caracteres" />
+                </label>
+                <label for="checkbox" class="checkbox-label">
+                    <input type="checkbox" id="checkbox" name="checkbox"/>
+                    <span>Acepto las condicciones legales y politicas</span>
+                </label>
+                <button type="submit" class="submit-btn" value="Crear Cuenta" >
+                    Crear Cuenta
+                </button>
+            </form>
+        
+        </div>
+        
+
+    </main>
+
+    <footer class="contenedor"><!--Inicio del footer-->
+        <div>
+
+            <ul class="menu-footer">
+                <li>
+                  <a href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram fa-beat-fade" style="color: #000000; font-size: 32px"></i>
+                </a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com/">
+                    <i class="fa-brands fa-x-twitter fa-beat" style="color: #000000; font-size: 32px"></i>
+                </a> 
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/">
+                    <i class="fa-brands fa-square-facebook fa-beat" style="color: #000000; font-size: 32px"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.whatsapp.com/">
+                  <i class="fa-brands fa-square-whatsapp fa-beat" style="color: #080808; font-size: 32px;"></i>
+                  </a>
+                </li>
+      
+              </ul>
+
+
+                <p class="footys"> @Adoptame&COPY-Todos los derechos reservados 2023</p> 
+        </div>  
+      </footer><!--Fin del footer-->
+      <script src="../js/app_home.js"></script>
+      <script src="../js/main.js"></script>
+      <script src="../js/form.js"></script>
+</body>
+</html>
